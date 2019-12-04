@@ -1,0 +1,114 @@
+
+.header .container-fluid{
+	background-color: #3477eb;
+	padding-top: 15px;
+
+	
+}
+
+.header h1{
+	font-size: 2.3em;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.main{
+    
+    background: #eee url("../img/photo.jpg");
+    background-size: cover;
+    height: 250px;
+	
+}
+
+.main h1{
+    font-size: 1.8em;
+	padding-top: 20px;
+	padding-left: 10px;
+	color: #ffffff;
+	
+}
+
+.blocks{
+
+	padding-left: 10px;
+}
+
+.weekDay1{
+ 	
+	display: inline-flex;
+	background-color: #dedede;
+	width: 250px;
+	height: 160px;
+
+	
+}
+
+.weekDay2{
+ 	
+	display: inline-flex;
+	background-color: #dedede;
+	width: 200px;
+	height: 150px;
+		
+}
+
+.weekDay3{
+ 	
+	display: inline-flex;
+	background-color: #dedede;
+	width: 200px;
+	height: 150px;
+		
+}
+
+.weekDay4{
+ 	
+	display: inline-flex;
+	background-color: #dedede;
+	width: 200px;
+	height: 150px;
+		
+}
+
+.weekDay5{
+ 	
+	display: inline-flex;
+	background-color: #dedede;
+	width: 200px;
+	height: 150px;
+		
+}
+
+.weekDay6{
+ 	
+	display: inline-flex;
+	background-color: #dedede;
+	width: 200px;
+	height: 150px;
+		
+}
+
+.weekDay7{
+ 	
+	display: inline-flex;
+	background-color: #dedede;
+	width: 200px;
+	height: 150px;
+		
+}
+
+.main .blocks .weekDay1 i{
+	color: grey;
+	padding-left: 10px;
+
+}
+
+.laipsniai0 p{
+   
+    font-size: 0.8em;
+}
+
+.monday p {
+
+	font-size: 0.8em;
+}
