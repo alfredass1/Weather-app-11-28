@@ -96,6 +96,15 @@
 	height: 150px;
 		
 }
+.scroll .container{
+
+ 	height: 400px;
+}
+.scroll {
+
+	overflow-x:scroll;
+	width: 90%; 
+}
 
 .main .blocks .weekDay1 i{
 	color: grey;
