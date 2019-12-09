@@ -96,14 +96,15 @@
 	height: 150px;
 		
 }
-.scroll .container{
+.scroll .container-fluid{
 
  	height: 400px;
+
 }
 .scroll {
 
 	overflow-x:scroll;
-	width: 90%; 
+	
 }
 
 .main .blocks .weekDay1 i{
@@ -120,4 +121,254 @@
 .monday p {
 
 	font-size: 0.8em;
+}
+
+
+.blocks2{
+	
+	padding-top: 5px;
+	padding-left: 20px;
+}
+.scroll .weekDay1_1{
+	
+	background-color: lightgrey;
+	display: inline-flex;
+	padding-left: 40px;
+	width: 150px;
+	height: 400px;
+
+}
+
+.scroll .weather1 i{
+
+	padding-top: 50px;
+
+}
+.scroll .temp1 p{
+
+	padding-top: 150px;
+
+}
+
+.scroll .humidity1 p{
+
+	padding-top: 225px;
+
+}
+
+.scroll .wind1 p{
+
+	padding-top: 300px;
+	padding-left: 10px;
+
+}
+
+
+.scroll .weekDay2_2{
+	
+	background-color: lightgrey;
+	display: inline-flex;
+	padding-left: 50px;
+	width: 150px;
+	height: 400px;
+
+
+}
+
+.scroll .weather2 i{
+
+	padding-top: 50px;
+
+}
+.scroll .temp2 p{
+
+	padding-top: 150px;
+
+}
+
+.scroll .humidity2 p{
+
+	padding-top: 225px;
+
+}
+
+.scroll .wind2 p{
+
+	padding-top: 300px;
+	padding-left: 10px;
+
+}
+
+.scroll .weekDay3_3{
+	
+	background-color: lightgrey;
+	display: inline-flex;
+	padding-left: 50px;
+	width: 150px;
+	height: 400px;
+
+
+}
+
+.scroll .weather3 i{
+
+	padding-top: 50px;
+
+}
+.scroll .temp3 p{
+
+	padding-top: 150px;
+
+}
+
+.scroll .humidity3 p{
+
+	padding-top: 225px;
+
+}
+
+.scroll .wind3 p{
+
+	padding-top: 300px;
+	padding-left: 10px;
+
+}
+
+.scroll .weekDay4_4{
+	
+	background-color: lightgrey;
+	display: inline-flex;
+	padding-left: 50px;
+	width: 150px;
+	height: 400px;
+
+
+}
+
+.scroll .weather4 i{
+
+	padding-top: 50px;
+
+}
+.scroll .temp4 p{
+
+	padding-top: 150px;
+
+}
+
+.scroll .humidity4 p{
+
+	padding-top: 225px;
+
+}
+
+.scroll .wind4 p{
+
+	padding-top: 300px;
+	padding-left: 10px;
+
+}
+
+.scroll .weekDay5_5{
+	
+	background-color: lightgrey;
+	display: inline-flex;
+	padding-left: 50px;
+	width: 150px;
+	height: 400px;
+
+
+}
+
+.scroll .weather5 i{
+
+	padding-top: 50px;
+
+}
+.scroll .temp5 p{
+
+	padding-top: 150px;
+
+}
+
+.scroll .humidity5 p{
+
+	padding-top: 225px;
+
+}
+
+.scroll .wind5 p{
+
+	padding-top: 300px;
+	padding-left: 10px;
+
+}
+
+.scroll .weekDay6_6{
+	
+	background-color: lightgrey;
+	display: inline-flex;
+	padding-left: 50px;
+	width: 150px;
+	height: 400px;
+
+
+}
+
+.scroll .weather6 i{
+
+	padding-top: 50px;
+
+}
+.scroll .temp6 p{
+
+	padding-top: 150px;
+
+}
+
+.scroll .humidity6 p{
+
+	padding-top: 225px;
+
+}
+
+.scroll .wind6 p{
+
+	padding-top: 300px;
+	padding-left: 10px;
+
+}
+
+.scroll .weekDay7_7{
+	
+	background-color: lightgrey;
+	display: inline-flex;
+	padding-left: 40px;
+	width: 150px;
+	height: 400px;
+
+}
+
+.scroll .weather7 i{
+
+	padding-top: 50px;
+
+}
+.scroll .temp7 p{
+
+	padding-top: 150px;
+
+}
+
+.scroll .humidity7 p{
+
+	padding-top: 225px;
+
+}
+
+.scroll .wind7 p{
+
+	padding-top: 300px;
+	padding-left: 10px;
+
 }
