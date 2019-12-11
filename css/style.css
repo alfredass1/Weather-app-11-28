@@ -96,15 +96,44 @@
 	height: 150px;
 		
 }
-.scroll .container-fluid{
 
- 	height: 400px;
+.scroll{
+	overflow-x: scroll;
+    height: 300px;
+
+   
+	
+}
+
+.hours{
+
+	display: flex;
+	width: 180%;
 
 }
-.scroll {
 
-	overflow-x:scroll;
-	
+.hour{
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    background-color: #dedede;
+    height: 280px;
+    padding-left: 50px;
+  
+}
+
+.temp{
+
+	padding-top: 50px;
+}
+
+.rain{
+
+	padding-top: 50px;
+}
+
+.wind{
+
+	padding-top: 80px;
 }
 
 .main .blocks .weekDay1 i{
@@ -112,6 +141,7 @@
 	padding-left: 10px;
 
 }
+
 
 .laipsniai0 p{
    
