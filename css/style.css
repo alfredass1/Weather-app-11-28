@@ -6,6 +6,17 @@
 	
 }
 
+
+button{
+	border-color: white;
+ 	background-color: white;
+ 	border-radius: 3px;
+  	border: none;
+  	padding: 5px 25px;
+ 
+}
+
+
 .header h1{
 	font-size: 2.3em;
 	color: #ffffff;
@@ -28,91 +39,26 @@
 	
 }
 
-.blocks{
 
-	padding-left: 10px;
-}
-
-.weekDay1{
- 	
-	display: inline-flex;
-	background-color: #dedede;
-	width: 250px;
-	height: 160px;
-
-	
-}
-
-.weekDay2{
- 	
-	display: inline-flex;
-	background-color: #dedede;
-	width: 200px;
-	height: 150px;
-		
-}
-
-.weekDay3{
- 	
-	display: inline-flex;
-	background-color: #dedede;
-	width: 200px;
-	height: 150px;
-		
-}
-
-.weekDay4{
- 	
-	display: inline-flex;
-	background-color: #dedede;
-	width: 200px;
-	height: 150px;
-		
-}
-
-.weekDay5{
- 	
-	display: inline-flex;
-	background-color: #dedede;
-	width: 200px;
-	height: 150px;
-		
-}
-
-.weekDay6{
- 	
-	display: inline-flex;
-	background-color: #dedede;
-	width: 200px;
-	height: 150px;
-		
-}
-
-.weekDay7{
- 	
-	display: inline-flex;
-	background-color: #dedede;
-	width: 200px;
-	height: 150px;
-		
-}
 
 .scroll{
 	overflow-x: scroll;
     height: 400px;
+
 
    
 	
 }
 
 .hours{
-
+	
 	display: flex;
 	width: 170%;
 
 }
 
 .hour{
+	border-top: 5px solid #fc8c03;
     border-left: 2px solid #ffffff;
     border-right: 2px solid #ffffff;
     background-color: #dedede;
@@ -161,6 +107,7 @@
 	font-size: 20px;
 }
 
+
 .main .blocks .weekDay1 i{
 	color: grey;
 	padding-left: 10px;
@@ -178,4 +125,8 @@
 	font-size: 0.8em;
 }
 
+.days{
 
+	display: flex;
+
+}
