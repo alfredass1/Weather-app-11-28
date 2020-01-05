@@ -81,7 +81,7 @@ button{
 
 .wind{
 
-	padding-top: 80px;
+	padding-top: 50px;
 }
 
 .weatherIcon{
@@ -130,3 +130,14 @@ button{
 	display: flex;
 
 }
+.Day{
+	border-top: 5px solid #fc8c03;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    background-color: #dedede;
+    height: 150px;
+    padding-left: 80px;
+    padding-top: 15px;
+  
+}
+

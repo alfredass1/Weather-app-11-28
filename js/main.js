@@ -62,6 +62,16 @@ const showWeather = async () => {
 showWeather()
 
 */
+const button = document.querySelector('.butonas');
+const inputValue = document.querySelector('.form-control')
+
+button.addEventListener('click', async function(){
+    let url = 'https://api.meteo.lt/v1/places/' + inputValue.value + '/forecasts/long-term';
+    let response = await fetch(url);
+    return await response.json(); 
+
+
+ });  
 
 //GAUTI DUOMENIS IS API//
 async function getData(city) {
@@ -136,18 +146,7 @@ async function showData(callback) {
                 return weatherIcons.isolatedCloudsNight;
         }
     }
-
-
-const button = document.querySelector('.butonas');
-const inputValue = document.querySelector('.form-control')
-
-button.addEventListener('click', async function(){
-    let url = 'https://api.meteo.lt/v1/places/' + inputValue.value + '/forecasts/long-term';
-    let response = await fetch(url);
-    return await response.json(); 
-
-
- });   
+ 
 
 
     for (let i = 0; i < 24; i++) {
@@ -220,7 +219,7 @@ button.addEventListener('click', async function(){
     }
 
 async function todayminmax()  {
-    for (let i=0; i < 7; i++) {
+    for (let i = 0; i < 7; i++) {
 
 
  let todaydata = Alldata.filter(function (item) {
@@ -229,7 +228,6 @@ async function todayminmax()  {
     let month = currentDate.getMonth() + 1;
     let year = currentDate.getFullYear();
     let formatd = year + "-" + month + "-" + day;
-    console.log(item.forecastTimeUtc)
     return item.forecastTimeUtc.includes(formatd)
 
 });
@@ -241,8 +239,23 @@ async function todayminmax()  {
     
 
     const week = document.querySelector(".days")
+
     let day = document.createElement("div")
     week.appendChild(day)
+
+
+    let dayDate = document.createElement('p')
+    dayDate.className = 'data'+[i];
+    let currentDate = new Date();
+    let day1 = currentDate.getDate() + i;
+    day.appendChild(dayDate)
+    dayDate.innerText = 'Day: ' + day1;
+
+    console.log(day1)
+    
+    
+
+
     //---------------stulpelis--------------------------//
     day.className = "col Day"
 
@@ -254,7 +267,7 @@ async function todayminmax()  {
      day.appendChild(dayHeader)
      day.appendChild(dayTemp)
 
-     dayTemp.innerText = ' Night: ' + mintemp + ' Day: ' + maxtemp;
+     dayTemp.innerHTML = ' Min: ' + mintemp + ' Max: ' + maxtemp;
 
 
 }
