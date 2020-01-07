@@ -69,8 +69,6 @@ button.addEventListener('click', async function(){
     let url = 'https://api.meteo.lt/v1/places/' + inputValue.value + '/forecasts/long-term';
     let response = await fetch(url);
     return await response.json(); 
-
-
  });  
 
 //GAUTI DUOMENIS IS API//
@@ -224,10 +222,12 @@ async function todayminmax()  {
 
  let todaydata = Alldata.filter(function (item) {
     let currentDate = new Date();
-    let day = currentDate.getDate() + i;
+    let day = currentDate.getDate();
+    let dayfix = (day<10) ? '0' +day : day;
     let month = currentDate.getMonth() + 1;
+    let monthfix = (month<10) ? '0'+month : month;
     let year = currentDate.getFullYear();
-    let formatd = year + "-" + month + "-" + day;
+    let formatd = year + "-" + monthfix + "-" + dayfix;
     return item.forecastTimeUtc.includes(formatd)
 
 });
