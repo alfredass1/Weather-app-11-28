@@ -243,6 +243,11 @@ async function todayminmax()  {
     let day = document.createElement("div")
     week.appendChild(day)
 
+    let DayIcon = document.createElement('div');
+    DayIcon.className = 'col todayWeatherIcon';
+    DayIcon.innerHTML = await getWeatherIcon(weatherData[i]['conditionCode']);
+    day.appendChild(DayIcon);
+
 
     let dayDate = document.createElement('p')
     dayDate.className = 'data'+[i];
@@ -254,8 +259,6 @@ async function todayminmax()  {
     console.log(day1)
     
     
-
-
     //---------------stulpelis--------------------------//
     day.className = "col Day"
 
